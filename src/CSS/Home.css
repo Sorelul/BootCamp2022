@@ -1,0 +1,89 @@
+.Container_principal{
+    width:100%;
+    height:120vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+}
+.banner{
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+.banner_continut{
+    font-family: "Madi";
+    position: absolute;
+    top:13%;
+    text-align:left;
+    margin-left:30px;
+    font-size: 8vw;
+    color:black;
+
+}
+.main{
+    resize:both;
+    overflow:auto;
+    margin-top:10%;
+    border-top:5px dashed black;
+    background-color:rgb(22, 22, 22,0.9);
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:5;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.main_1{
+    margin-top:50px;
+    padding:20px;
+    margin-left:15%;
+    width: 70%;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end:2;
+}   
+.main_2{
+    margin-top:50px;
+    padding:20px;
+    margin-left:15%;
+    width: 70%;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end:3;
+
+}   
+.main_3{
+    margin-top:50px;
+    padding:20px;
+    margin-left:15%;
+    width: 70%;
+    text-align: center;
+    grid-column-start: 3;
+    grid-column-end:4;
+
+}   
+
+.button{
+    border-radius:30px;
+    background:none;
+    border:2px solid rgb(0, 0, 0);
+    padding: 1em 2em;
+    transition: 0.35s;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    height:60px;
+    margin-bottom:10px;
+    color:#b803ff;
+    font-weight: bold;
+}
+
+.button:hover, .button:focus{
+    border-color:#07FFBF;
+    color: rgb(255, 255, 255);
+    box-shadow:inset 200px 0 0 0 #000000;
+}

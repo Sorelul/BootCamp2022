@@ -1,0 +1,83 @@
+
+.button{
+    border-radius:30px;
+    background:none;
+    border:2px solid rgb(0, 0, 0);
+    padding: 1em 2em;
+    transition: 0.35s;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height:60px;
+    color:#b803ff;
+    font-weight: bold;
+}
+
+.button:hover, .button:focus{
+    border-color:#07FFBF;
+    color: rgb(255, 255, 255);
+    box-shadow:inset 200px 0 0 0 #000000;
+}
+
+.Container_principal{
+    width:100%;
+    height:82vh;
+    padding:25px;
+     display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 10fr; 
+    top:50px;
+}
+
+.blank{
+    grid-row-start:1;
+    grid-row-end:2;
+}
+
+.Container_buton_Adaugare{
+    text-align:center;
+    grid-row-start:2;
+    grid-row-end:3;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Container_buton_Adaugare_fr{
+    margin-top:20px;
+    grid-column-start:2;
+    grid-column-end:3;
+}
+
+.content-fit::-webkit-scrollbar {
+    display: none;
+  }
+
+.content{
+    overflow: auto;
+    text-align:center;
+    grid-row-start:3;
+    grid-row-end:4;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.content-fit{
+    margin:auto;
+    overflow: auto;
+    grid-column-start:2;
+    grid-column-end:3;
+}
+.popup-fit{
+    position: absolute;
+    grid-column-start: 1;  
+    grid-column-end: 2;  
+    margin:auto;
+}
+.popup-addfit{
+    position: absolute;
+    top:auto;
+    right:auto;
+    margin-left: 70%;
+}
+

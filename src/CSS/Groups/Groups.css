@@ -1,0 +1,130 @@
+.ContainerGenerale{
+    height:180vh;
+    padding:10px;
+    display:grid;
+    grid-template-rows: 2fr 10fr;
+}
+
+.container_titlu{
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align: center;
+
+}
+.titlu{
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    font-size:60px;
+    padding:40px;
+    margin-top:100px;
+    font-family: "Madi"; 
+}
+
+
+.container_body{
+    height:100%;
+    grid-row-start:2;
+    grid-row-end:3;
+    /* text-align: center; */
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    margin-top:10px;
+
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 8fr 1fr;
+}
+
+.grupuri{
+    height:100%;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+    margin-top:30px;
+
+    display:grid;
+    grid-template-rows:0.2fr 0.2fr 2fr 0.2fr 2fr;
+}
+
+.grupuriSubTitlu{
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align: center;
+}
+.grupuriTitluMyGroups{
+    grid-row-start:2;
+    grid-row-end:3;
+    font-size:40px;
+    text-align:center;
+    border-bottom: 2px solid pink;
+}
+.grupuriMyGroups{
+    width:90%;
+    border:2px solid black;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    grid-row-start:3;
+    grid-row-end:4;
+}
+
+.grupuriTitluOtherGroups{
+    margin-top:40px;
+    grid-row-start:4;
+    grid-row-end:5;
+    font-size:40px;
+    text-align:center;
+    border-bottom: 2px solid pink;
+}
+
+.grupuriOtherGroups{
+    width:90%;
+    border:2px solid black;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.GroupWishListParticular{
+    margin-top:10px;
+    border:2px solid black;
+    padding:10px;
+    text-align:center;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+.GroupWishListParticularItem{
+    margin-top:10px;
+    border:2px solid rgb(53, 34, 34);
+    padding:10px;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+
+.notifContainer{
+    height:100vh;
+    padding:10px;
+    
+}
+
+.notifCard{
+    margin-top:10px;
+    border:2px solid black;
+}
+
+.notifContMic{
+    width:60%;
+    overflow:auto;
+    text-align:center;
+    margin:auto;
+    margin-top:150px;
+}

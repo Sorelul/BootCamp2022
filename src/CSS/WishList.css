@@ -1,0 +1,222 @@
+.containerWishList{
+    height:170vh;
+    padding:10px;
+    display:grid;
+    grid-template-rows: 2fr 9fr;
+}
+
+.container_titlu{
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align: center;
+
+}
+.titlu{
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    /* backdrop-filter: blur(10px); */
+    border-radius: 8px;
+    font-size:60px;
+    padding:40px;
+    margin-top:100px;
+    font-family: "Madi"; 
+}
+.btnAdaugare{
+    float:left;
+    width:200px;
+    height:100px;
+    background-color: rgba(107, 255, 102, 0.5);
+    border:none;
+    font-size:20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+.btnAdaugare:hover{
+    background-color: rgba(107, 255, 102, 1);
+    cursor: pointer;
+}
+
+.btnSterge{
+float:left;
+margin-top:15px;
+width:100px;
+background:none;
+border:none;
+font-size:20px;
+height:30px;
+border-radius: 8px;
+cursor: pointer;
+}
+.btnUpdate{
+float:right;
+margin-top:15px;
+width:100px;
+background:none;
+border:none;
+font-size:20px;
+height:30px;
+border-radius: 8px;
+cursor: pointer;
+}
+.btnUpdate:hover{
+background-color: rgba(22, 255, 14, 0.5);
+}
+.btnSterge:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.btnUpdate:active{
+background-color: rgba(22, 255, 14, 1);
+color:white;
+}
+.btnSterge:active{
+    background-color: rgba(255, 0, 0, 1);
+    color:white;
+}
+
+
+.container_body{
+    grid-row-start:2;
+    grid-row-end:3;
+    /* text-align: center; */
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    margin-top:10px;
+
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 8fr 1fr;
+}
+
+.iteme{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    margin-top:30px;
+}
+.ContainerStanga{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align:right;
+    margin-right:10px;
+    margin-top:50px;
+}
+.btn_nav{
+    cursor: pointer;
+    border-radius:50px;
+    font-size:20px;
+    width:50px;
+    background:none;
+    margin-bottom:20px;
+}
+.btn_nav:active{
+    background-color:rgba(0, 0, 0, 0.5);
+    color:white;
+}
+.ContainerDreapta{
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+    margin-left:10px;
+    margin-top:50px;
+}
+
+.paginatie{
+    margin:auto;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.buton_paginatie{
+    margin-right:5px;
+    width:50px;
+    margin-top:5px;
+    background-color:black;
+    color:white;
+    font-weight:bold;
+}
+.buton_paginatie:active {
+    background-color: white;
+    color:black;
+  }
+
+  
+.container_lista{
+    text-align: center;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr 10fr 1fr;
+}
+
+.paginatie_lista{
+    grid-row-start:4;
+    grid-row-end:5;
+
+}
+
+
+.container_titlu_wish{
+    margin-top:10px;
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align: center;
+
+}
+.titlu_wish{
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    font-size:40px;
+    padding:10px;
+    font-family: "Madi"; 
+}
+
+.container_detalii_wish{
+    margin-top:10px;
+    grid-row-start:2;
+    grid-row-end:3;
+    text-align: left;
+
+}
+.detalii_wish{
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    font-size:30px;
+    padding:10px;
+    font-family: "Madi"; 
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.iteme_wish{
+    grid-row-start:3;
+    grid-row-end:4;
+}
+
+
+.item_particular{
+    width:80%;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border-radius: 8px;
+    margin:auto;
+    margin-top:10px;
+
+}

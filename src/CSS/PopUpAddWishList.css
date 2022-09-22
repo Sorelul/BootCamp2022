@@ -1,0 +1,57 @@
+
+.ContainerPopUpWish{
+    width:90%;
+    margin:auto;
+    height:90%;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border:2px solid black;
+    color:rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius:8px;
+}
+
+.InteriorWish{
+    height:100%;
+    display:grid;
+    text-align:center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 8fr 1fr;
+}
+
+.InteriorTitluWish{
+    grid-row-start: 1;
+    grid-row-end:2;
+    grid-column-start:1;
+    grid-column-end:3;
+    text-align: center;
+}
+
+.InteriorNumeWish{
+    grid-row-start:2;
+    grid-row-end:3;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+.InteriorDetaliiWish{
+    grid-row-start:3;
+    grid-row-end:4;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+.InteriorContinutWish{
+    grid-row-start:4;
+    grid-row-end:5;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+
+.InteriorButoaneWish{
+    grid-row-start:5;
+    grid-row-end:6;
+    grid-column-start:1;
+    grid-column-end:3;
+}

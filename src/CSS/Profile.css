@@ -1,0 +1,204 @@
+.container{
+    height:140vh;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    padding:10px;
+}
+
+.caseta {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1.5fr 1fr 1fr 1fr 1.5fr 1fr 1fr 0.5fr;
+  }
+
+  .caseta_profile{
+     grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+    text-align: center;
+    font-size:60px;
+    padding:40px;
+    padding-top:40px;
+    /* border:2px solid black; */
+    font-family: "Madi"; 
+  }
+  .caseta_email{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:2;
+    grid-row-end:3;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+  .caseta_parola{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+  .caseta_nume{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:3;
+    grid-row-end:4;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+  .caseta_telefon{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:3;
+    grid-row-end:4;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+  .caseta_dob{
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:4;
+    grid-row-end:5;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+  .caseta_adresa{
+   grid-column-start:1;
+   grid-column-end:3;
+   grid-row-start:5;
+   grid-row-end:6;
+   text-align: center;
+   font-size:60px;
+   padding:40px;
+   padding-top:40px;
+   /* border:2px solid black; */
+   font-family: "Madi"; 
+ }
+ .caseta_country{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:6;
+    grid-row-end:7;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+ .caseta_city{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:6;
+    grid-row-end:7;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+ .caseta_street{
+    grid-column-start:1;
+    grid-column-end:2;
+    grid-row-start:7;
+    grid-row-end:8;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+ .caseta_zip{
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:7;
+    grid-row-end:8;
+    text-align: center;
+    font-size:20px;
+    padding:20px;
+  }
+ .caseta_button{
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:8;
+    grid-row-end:9;
+    text-align: center;
+    font-size:20px;
+    padding:10px;
+  }
+
+
+  .form_input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 100%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+  }
+
+  .button{
+    margin-top:25px;
+    position: relative;
+    background-color: black;
+    border-radius: 4em;
+    font-size: 16px;
+    color: white;
+    padding: 0.8em 1.8em;
+    cursor:pointer;
+    user-select:none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  }
+  
+  .button:hover {
+    transition-duration: 0.1s;
+    background-color: #3A3A3A;
+  }
+  
+  .button:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 10px 40px white;
+  }
+  
+  .button:active:after {
+    box-shadow: 0 0 0 0 white;
+    position: absolute;
+    border-radius: 4em;
+    left: 0;
+    top:0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .button:active {
+    top: 1px;
+  }

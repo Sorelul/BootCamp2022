@@ -1,0 +1,86 @@
+.ContainerPopUp{
+    width:500px;
+    height:550px;
+    max-height: 600px;
+    background-color:rgba(255,255,255,.05);
+    box-shadow: 0 0 100px
+    rgba(0,0,0,0.25);
+    border:2px solid black;
+    color:rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    border-radius:8px;
+}
+
+.form_input {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 0.2rem 0.2rem;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    width: 80%;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+  }
+
+.Interior{
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.Interior_titlu{
+    grid-row-start:1;
+    grid-row-end:2;
+}
+.Interior_nume{
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.Interior_detalii{
+    grid-row-start:3;
+    grid-row-end:4;
+}
+.Interior_marime{
+    grid-row-start:4;
+    grid-row-end:5;
+}
+.Interior_creator{
+    grid-row-start:5;
+    grid-row-end:6;
+}
+.Interior_model{
+    grid-row-start:6;
+    grid-row-end:7;
+}
+.Interior_link{
+    grid-row-start:7;
+    grid-row-end:8;
+}
+.Interior_butoane{
+    margin-top:auto;
+    grid-row-start:8;
+    grid-row-end:9;
+}
+
+.buttonPopUp{
+    width: 30%;
+    background-color:black;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    border-radius:5px;
+    transition: 0.2s all;
+}
+.buttonPopUp:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.buttonPopUp:hover {
+   opacity:0.6;
+   border: 2px solid white;
+}

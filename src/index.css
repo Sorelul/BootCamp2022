@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Madi";   /*Can be any text*/
+  src: local("MsMadi-Regular"),
+    url("./CSS/MsMadi-Regular.ttf") format("truetype");
+}
